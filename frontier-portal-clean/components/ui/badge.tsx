@@ -1,0 +1,1 @@
+import * as React from "react";import clsx from "clsx";export function Badge({className,...p}:React.ComponentProps<"span">){return <span className={clsx("inline-flex items-center rounded-md border px-2 py-0.5 text-xs",className)} {...p}/>;}

@@ -1,0 +1,1 @@
+import * as React from "react";import clsx from "clsx";export function Input({className,...p}:React.ComponentProps<"input">){return <input className={clsx("w-full h-9 px-3 rounded-md border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-slate-400",className)} {...p}/>;}

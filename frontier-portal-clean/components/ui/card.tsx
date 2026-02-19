@@ -1,0 +1,1 @@
+import * as React from "react";import clsx from "clsx";export function Card({className,...p}:React.ComponentProps<"div">){return <div className={clsx("border rounded-lg bg-white",className)} {...p}/>;}export function CardContent({className,...p}:React.ComponentProps<"div">){return <div className={clsx("p-4",className)} {...p}/>;}
